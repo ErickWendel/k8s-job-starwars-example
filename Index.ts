@@ -29,6 +29,7 @@ const connectionString = `mongodb://${process.env.MONGO_URL || "localhost:27017"
             throw e
         }
     }
-    await Promise.all(promises)
-    console.log('job finished')
+    await Promise.all(promises);
+    console.log('job finished');
+    process.exit(0);
 })();

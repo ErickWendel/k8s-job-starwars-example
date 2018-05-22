@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "start": "pm2-docker lib/Index.js"
+    "start": "node lib/Index.js"
   },
   "keywords": [],
   "author": "erickwendel",

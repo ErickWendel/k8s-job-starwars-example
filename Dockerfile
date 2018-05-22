@@ -4,7 +4,7 @@ ADD . /src
 
 WORKDIR /src 
 
-RUN npm i -g typescript pm2 --production --silent
+RUN npm i -g pm2 typescript --production --silent
 
 RUN npm i --production --silent
 

@@ -1,6 +1,7 @@
 version: '3'
 services: 
   job:
+    #image: erickwendel/k8s-job-starwars-example
     build: .
     environment: 
       MONGO_URL: mongodb
