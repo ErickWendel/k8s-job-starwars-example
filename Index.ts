@@ -15,7 +15,7 @@ const connectionString = `mongodb://${process.env.MONGO_URL || "localhost:27017"
     for (let i = 1; i <= 100; i++) {
         try {
 
-            const url = `https://swapi.co/api/people/${i}`;
+            const url = `https://swapi.dev/api/people/${i}`;
             console.log('trying', url)
             const results = await request(url)
             const data = JSON.parse(results)
